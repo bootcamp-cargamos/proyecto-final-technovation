@@ -100,3 +100,30 @@ body{
 }
 
 /* ------------------------------------------------------------------ */
+/* By Fer*/
+.primary-color{
+    background: #5d6e43;
+    }
+    .second-color{
+        background:  #dbd5c8;
+    }
+    .bg-color{
+        background-color: #ede5e1;
+    }
+    .height6{
+        height: 570px;
+    }
+    .height4{
+        height: 450px;
+    }
+    #contenedor{
+        padding: 50px 40px;
+        color: black;
+        width: 400px;
+        text-align: center;
+        border-radius: 10px 10px 10px 10px;
+        position: relative;
+        top: 45px;
+        left: 450px;
+    }
+/* ---------------------------------------------------------------- */
