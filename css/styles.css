@@ -1,5 +1,6 @@
 @import url(vars.css);
 
+/* By Dina */
 body{
     background-color: var(--bg-color);
 }
@@ -97,3 +98,5 @@ body{
 #sesion:visited{
     color: var(--primary-color);
 }
+
+/* ------------------------------------------------------------------ */
