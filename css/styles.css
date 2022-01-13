@@ -111,19 +111,22 @@ body{
         background-color: #ede5e1;
     }
     .height6{
-        height: 570px;
+        height: 50%;
     }
     .height4{
-        height: 450px;
+        height: 40%;
     }
+    .p-t1{
+        padding-top: 15%;
+    }
+    
     #contenedor{
-        padding: 50px 40px;
         color: black;
-        width: 400px;
+        width: 30%; 
         text-align: center;
         border-radius: 10px 10px 10px 10px;
         position: relative;
-        top: 45px;
-        left: 450px;
+        top: 5%;
+        left: 35%;
     }
 /* ---------------------------------------------------------------- */
