@@ -1,7 +1,7 @@
 @import url(vars.css);
 
 body{
-    background-color: red;
+    background-color: var(--bg-color);
 }
 
 .blur{
@@ -75,4 +75,8 @@ body{
 
 .team-item:hover .team-social {
     left: 0;
+}
+
+.shadow{
+    box-shadow: 0 0 5px rgba(63, 63, 55, 0.5);
 }
