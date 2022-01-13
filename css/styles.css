@@ -100,6 +100,20 @@ body {
 
 /* By javier */
 /* ========================================== */
-.vender {
-  margin-top: 8%;
+.w-90 {
+  width: 90%;
+}
+.pt-8 {
+  padding-top: 8%;
+}
+.mt-6 {
+  margin-top: 6%;
+}
+.bg-form {
+  /* background-color: var(--primary-color) !important; */
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+.color-form {
+  color: var(--primary-color) !important;
 }
