@@ -16,8 +16,8 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-second fixed-top">
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-second fixed-top shadow">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <h2 class="m-0 text-primary">Techno-Innovation</h2>
@@ -37,25 +37,27 @@
               Productos
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Frutas</a></li>
-              <li><a class="dropdown-item" href="#">Verduras</a></li>
-              <li><a class="dropdown-item" href="#">Textiles</a></li>
+              <li><a class="dropdown-item" href="pages/productos/frutas.html">Frutas</a></li>
+              <li><a class="dropdown-item" href="pages/productos/verduras.html">Verduras</a></li>
+              <li><a class="dropdown-item" href="pages/productos/textiles.html">Textiles</a></li>
               <li>
-                <a class="dropdown-item" href="#">Productos para el Campo</a>
+                <a class="dropdown-item" href="pages/productos/productos.html">Productos para el Campo</a>
               </li>
-              <li><a class="dropdown-item" href="#">Tecnología</a></li>
+              <li><a class="dropdown-item" href="pages/productos/tecnología.html">Tecnología</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-item nav-link"><i class="bi bi-cart-fill"></i></a>
+            <a href="pages/checklist.html" class="nav-item nav-link"><i class="bi bi-cart-fill"></i></a>
           </li>
         </ul>
-        <button class="btn btn-outline-primary m-1">Iniciar Sesión</button>
-        <button class="btn btn-primary">Registrarse</button>
+        <button class="btn btn-outline-primary m-1"><a href="pages/sesion.html" class="a" id="sesion">Iniciar
+            Sesión</a></button>
+        <button class="btn btn-primary"><a href="pages/registrarse.html" class="a">Registrarse</a></button>
       </div>
     </div>
   </nav>
 
+  <!-- carousel -->
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -67,27 +69,35 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+        <img src="img/slide1.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block">
           <h5>Objetivo</h5>
-          <p class="blur">Nuestro objetivo es modernizar toda el área rural y agrícola de Guatemala.</p>
+          <p class="blur">
+            Nuestro objetivo es modernizar toda el área rural y agrícola de
+            Guatemala.
+          </p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+        <img src="img/slide2.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block">
           <h5>Misión</h5>
-          <p class="blur">Que todas las personas que usen nuestra página logren vender sus productos de forma sencilla,
-            rápida y beneficiosa.</p>
+          <p class="blur">
+            Que todas las personas que usen nuestra página logren vender sus
+            productos de forma sencilla, rápida y beneficiosa.
+          </p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/slide3.jpg" class="d-block w-100" alt="...">
+        <img src="img/slide3.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption d-none d-md-block">
           <h5>Visión</h5>
-          <p class="blur">Que a futuro nuestro pais pueda ser modernizado y llegar a todas las partes de nuestro pais
-            <br>
-            ayudando a todas las areas a que su trabajo sea recompenzado mas rapido y de forma mayoritaria.
+          <p class="blur">
+            Que a futuro nuestro pais pueda ser modernizado y llegar a todas
+            las partes de nuestro pais
+            <br />
+            ayudando a todas las areas a que su trabajo sea recompenzado mas
+            rapido y de forma mayoritaria.
           </p>
         </div>
       </div>
@@ -103,80 +113,125 @@
   </div>
 
   <!-- Productos -->
-  <div class="container-xxl py-5">
-    <div class="container">
-      <div class="section-title text-center">
-        <h1 class="display-5 mb-5">Productos</h1>
+  <div class="text-center">
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="section-title text-center">
+          <h1 class="display-5 mb-5">Productos</h1>
+        </div>
+        <div class="row g-4 d-flex justify-content-center">
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <a href="pages/productos/frutas.html" class="productos">
+              <div class="shadow team-item">
+                <div class="overflow-hidden position-relative">
+                  <img class="img-fluid" src="img/frutas.jpg" alt="" />
+                </div>
+                <div class="text-center border border-5 border-light border-top-0 p-3">
+                  <h5 class="mb-0">Frutas</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <a href="pages/productos/verduras.html" class="productos">
+              <div class="shadow team-item">
+                <div class="overflow-hidden position-relative">
+                  <img class="img-fluid" src="img/verduras.jpg" alt="" />
+                </div>
+                <div class="text-center border border-5 border-light border-top-0 p-3">
+                  <h5 class="mb-0">Verduras</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <a href="pages/productos/textiles.html" class="productos">
+              <div class="shadow team-item">
+                <div class="overflow-hidden position-relative">
+                  <img class="img-fluid" src="img/textiles.jpg" alt="" />
+                </div>
+                <div class="text-center border border-5 border-light border-top-0 p-3">
+                  <h5 class="mb-0">Textil</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="row g-4 shadow">
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="team-item">
-            <div class="overflow-hidden position-relative">
-              <img class="img-fluid" src="img/frutas.jpg" alt="">
-            </div>
-            <div class="text-center border border-5 border-light border-top-0 p-4">
-              <h5 class="mb-0">Full Name</h5>
-              <small>Designation</small>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="team-item">
-            <div class="overflow-hidden position-relative">
-              <img class="img-fluid" src="img/team-2.jpg" alt="">
+    </div>
 
-            </div>
-            <div class="text-center border border-5 border-light border-top-0 p-4">
-              <h5 class="mb-0">Full Name</h5>
-              <small>Designation</small>
-            </div>
+    <div class="container-xxl">
+      <div class="container ">
+        <div class="row g-4 d-flex justify-content-center">
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <a href="pages/productos/productos.html" class="productos">
+              <div class="shadow team-item">
+                <div class="overflow-hidden position-relative">
+                  <img class="img-fluid" src="img/productos.jpg" alt="" />
+                </div>
+                <div class="text-center border border-5 border-light border-top-0 p-3">
+                  <h5 class="mb-0">Productos del campo</h5>
+                </div>
+              </div>
+            </a>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="team-item">
-            <div class="overflow-hidden position-relative">
-              <img class="img-fluid" src="img/team-3.jpg" alt="">
-
-            </div>
-            <div class="text-center border border-5 border-light border-top-0 p-4">
-              <h5 class="mb-0">Full Name</h5>
-              <small>Designation</small>
-            </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <a href="pages/productos/tecnología.html" class="productos">
+              <div class="shadow team-item">
+                <div class="overflow-hidden position-relative">
+                  <img class="img-fluid" src="img/tecnologia.jpg" alt="" />
+                </div>
+                <div class="text-center border border-5 border-light border-top-0 p-3">
+                  <h5 class="mb-0">Tecnología</h5>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-xxl py-5">
-    <div class="container">
-      <div class="section-title text-center">
-      </div>
-      <div class="row g-4">
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="team-item">
-            <div class="overflow-hidden position-relative">
-              <img class="img-fluid" src="img/team-1.jpg" alt="">
 
-            </div>
-            <div class="text-center border border-5 border-light border-top-0 p-4">
-              <h5 class="mb-0">Full Name</h5>
-              <small>Designation</small>
+
+<!-- Footer -->
+  <div class="mt-5">
+    <div class="container-fluid bg-gray text-light w-100 p-5 m-0 text-center">
+      <h5>¡Comencemos ahora!</h5>
+      <h1>Te ayudamos a vender lo que necesites.</h1>
+      <button class="btn btn-primary"><a href="pages/vender.html" class="a">¡Empecemos ya!</a></button>
+    </div>
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col">
+            <h4>Tecno-Innovation me parece una plataforma muy buena para vender mis productos textiles y poder llevar
+              más
+              lejos mi negocio.</h3>
+              <h6 class="text-gray"><img src="img/testimonio.jpeg" alt="" style="border-radius: 100%; width: 4%;"> Juan
+                Pérez</h6>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <h2 class="m-2"><i class="bi bi-facebook"></i></h2>
+            <h2 class="m-2"><i class="bi bi-instagram f-2"></i></h2>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-between">
+          <div class="col ">
+            <a class="navbar-brand" href="#">
+              <h2 class="m-0 text-light">Techno-Innovation</h2>
+            </a>
+          </div>
+          <div class="col">
+            <div class="position-relative mx-auto" style="max-width: 500px;">
+              <input class="form-control border-0 w-100 py-3" type="search" placeholder="¿Qué buscas?">
+              <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Buscar</button>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="team-item">
-            <div class="overflow-hidden position-relative">
-              <img class="img-fluid" src="img/team-2.jpg" alt="">
-
-            </div>
-            <div class="text-center border border-5 border-light border-top-0 p-4">
-              <h5 class="mb-0">Full Name</h5>
-              <small>Designation</small>
-            </div>
-          </div>
-        </div>
       </div>
+
     </div>
   </div>
 
