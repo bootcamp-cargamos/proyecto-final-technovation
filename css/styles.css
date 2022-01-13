@@ -1,102 +1,105 @@
 @import url(vars.css);
 
 /* By Dina */
-body{
-    background-color: var(--bg-color);
+body {
+  background-color: var(--bg-color);
 }
 
-.blur{
-    background-color: rgba(0, 0, 0, 0.5);
+.blur {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.bg-primary{
-    background-color: var(--primary-color);
+.bg-primary {
+  background-color: var(--primary-color);
 }
 
-.bg-dark{
-    background-color: var(--dark-color) !important;
+.bg-dark {
+  background-color: var(--dark-color) !important;
 }
 
-.text-primary{
-    color: var(--primary-color)!important; 
+.text-primary {
+  color: var(--primary-color) !important;
 }
 
-.text-second{
-    color: var(--second-color) !important;
+.text-second {
+  color: var(--second-color) !important;
 }
 
-.text-gray{
-    color: var(--gray-color) !important;
+.text-gray {
+  color: var(--gray-color) !important;
 }
 
-.bg-gray{
-    
-    background-color: var(--gray-color) !important;
+.bg-gray {
+  background-color: var(--gray-color) !important;
 }
 
-.bg-second{
-    
-    background-color: var(--second-color) !important;
+.bg-second {
+  background-color: var(--second-color) !important;
 }
 
-.btn-outline-primary{
-    border-color: var(--primary-color)!important; 
-    color: var(--primary-color)!important; 
+.btn-outline-primary {
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
 }
 
-.btn-outline-primary:hover{
-    background-color: var(--primary-color)!important; 
-    color: white !important;
+.btn-outline-primary:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
 }
 
-.btn-primary{
-    border-color: var(--primary-color)!important;
-    background-color: var(--primary-color)!important; 
-    color: white !important;
+.btn-primary {
+  border-color: var(--primary-color) !important;
+  background-color: var(--primary-color) !important;
+  color: white !important;
 }
 
-.btn-primary:hover{
-    
-    background-color: #4b5f30!important; 
+.btn-primary:hover {
+  background-color: #4b5f30 !important;
 }
 
 /* Productos */
 .team-item img {
-    transition: .5s;
+  transition: 0.5s;
 }
 
 .team-item:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.shadow{
-    box-shadow: 0 0 5px rgba(63, 63, 55, 0.603);
+.shadow {
+  box-shadow: 0 0 5px rgba(63, 63, 55, 0.603);
 }
 
-.productos:link{
-    color: var(--primary-color);
-    text-decoration: none;
+.productos:link {
+  color: var(--primary-color);
+  text-decoration: none;
 }
-.productos:visited{
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
-.a:link{
-    color: white;
-    text-decoration: none;
+.productos:visited {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
-.a:visited{
-    color: white;
-    text-decoration: none;
+.a:link {
+  color: white;
+  text-decoration: none;
 }
 
-#sesion:link{
-    color: var(--primary-color);
+.a:visited {
+  color: white;
+  text-decoration: none;
 }
-#sesion:visited{
-    color: var(--primary-color);
+
+#sesion:link {
+  color: var(--primary-color);
+}
+#sesion:visited {
+  color: var(--primary-color);
 }
 
 /* ------------------------------------------------------------------ */
+
+/* By javier */
+/* ========================================== */
+.vender {
+  margin-top: 8%;
+}
