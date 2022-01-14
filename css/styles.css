@@ -112,4 +112,37 @@ body{
 
 
 
+<<<<<<< Updated upstream
   /* ------------------------------------------------------------------ */
+=======
+  /* ------------------------------------------------------------------ */
+  
+/* By rumina */
+
+ 
+#options{
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+aside{
+  background-color: rgb(236, 229, 229);
+}
+
+#table{
+  width: 70%;
+  height: 50vh;
+}
+
+#producto{
+  width: 45%;
+}
+
+#main{
+  width: 30%;
+  height: 100vh;
+ 
+}
+
+>>>>>>> Stashed changes
