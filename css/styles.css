@@ -162,33 +162,10 @@ body {
   /* ------------------------------------------------------------------ */
   
 /* By rumina */
-div{
-  width: 100%;
-  height: 100vh;
-}
- 
-#options{
-  margin-top: 20px;
-  height: 40px;
-  border-radius: 5px;
+#form{
+  border: 1px solid black;
 }
 
-aside{
-  background-color: rgb(236, 229, 229);
+#needBorder{
+  border: 1px solid black;
 }
-
-#table{
-  width: 70%;
-  height: 50vh;
-}
-
-#producto{
-  width: 45%;
-}
-
-#main{
-  width: 30%;
-  height: 100vh;
- 
-}
-
