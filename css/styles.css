@@ -97,6 +97,37 @@ body {
 }
 
 /* ------------------------------------------------------------------ */
+/* By Fer*/
+.primary-color{
+    background: #5d6e43;
+    }
+    .second-color{
+        background:  #dbd5c8;
+    }
+    .bg-color{
+        background-color: #ede5e1;
+    }
+    .height6{
+        height: 50%;
+    }
+    .height4{
+        height: 40%;
+    }
+    .p-t1{
+        padding-top: 15%;
+    }
+    
+    #contenedor{
+        color: black;
+        width: 30%; 
+        text-align: center;
+        border-radius: 10px 10px 10px 10px;
+        position: relative;
+        top: 5%;
+        left: 35%;
+    }
+/* ---------------------------------------------------------------- */
+=======
 
 /* By javier */
 /* ========================================== */
