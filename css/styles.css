@@ -117,3 +117,15 @@ body {
 .color-form {
   color: var(--primary-color) !important;
 }
+
+/* By Alicia */
+
+  .btnAnterior{
+    border: 1px solid  blue;
+  color: blue;
+ height: 40px;
+  }
+
+
+
+  /* ------------------------------------------------------------------ */
