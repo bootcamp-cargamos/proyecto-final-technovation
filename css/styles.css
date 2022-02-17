@@ -30,6 +30,7 @@ body{
 }
 .text-gray{
     color: var(--gray-color) !important;
+    
 }
 
 .bg-gray{
@@ -40,6 +41,10 @@ body{
 .bg-second{
     
     background-image: url('../img/header.jpg');
+}
+
+.bg-green{
+    background-color: #692658;
 }
 
 .btn-outline-primary{
