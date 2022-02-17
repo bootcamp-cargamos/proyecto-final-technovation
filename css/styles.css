@@ -2,7 +2,7 @@
 
 /* By Dina */
 body{
-    background-color: var(--bg-color);
+    background-image: url('../img/istockphoto-996416794-170667a.jpg');
 }
 
 .blur{
@@ -22,7 +22,8 @@ body{
 }
 
 .text-second{
-    color: var(--second-color) !important;
+    color: var(--primary-color) !important;
+    font-size: 20px;
 }
 
 .text-gray{
@@ -36,7 +37,7 @@ body{
 
 .bg-second{
     
-    background-color: var(--second-color) !important;
+    background-image: url('../img/header.jpg');
 }
 
 .btn-outline-primary{
@@ -83,12 +84,12 @@ body{
 }
 
 .a:link{
-    color: white;
+    color: #F8E869;
     text-decoration: none;
 }
 
 .a:visited{
-    color: white;
+    color: #037586;
     text-decoration: none;
 }
 
@@ -113,6 +114,10 @@ body{
  #numero{
      width: 70px;
  }
+
+.height1{
+    height: 400px;
+}
 
 
 
