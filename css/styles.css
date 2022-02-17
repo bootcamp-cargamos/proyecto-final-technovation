@@ -96,7 +96,7 @@ body{
 }
 
 #sesion:link{
-    color: var(--primary-color);
+    color: var(--second-color);
 }
 #sesion:visited{
     color: var(--primary-color);
@@ -121,6 +121,10 @@ body{
     height: 400px;
 }
 
+.producto_principal{
+    width: 200px;
+    height: 200px;
+}
 
 
 
