@@ -39,12 +39,12 @@ body{
 }
 
 .bg-second{
-    
-    background-image: url('../img/header.jpg');
+    background-color: black;
 }
 
 .bg-green{
-    background-color: #692658;
+    background-color: #b86da5;
+
 }
 
 .btn-outline-primary{
@@ -131,6 +131,9 @@ body{
     height: 200px;
 }
 
+#foot{
+    background-color: #5e0943;
+}
 
 
 
