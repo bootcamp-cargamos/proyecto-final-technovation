@@ -1,9 +1,11 @@
 @import url(vars.css);
 
 /* By Dina */
-body {
-  background-color: var(--bg-color);
-}
+
+body{
+    background-image: url('../img/istockphoto-996416794-170667a.jpg');
+
+
 
 .blur {
   background-color: rgba(0, 0, 0, 0.5);
@@ -21,20 +23,29 @@ body {
   color: var(--primary-color) !important;
 }
 
-.text-second {
-  color: var(--second-color) !important;
+.text-second{
+    color: var(--primary-color) !important;
+    font-size: 20px;
 }
+.text-third{
+    color: aquamarine;
+}
+.text-gray{
+    color: var(--gray-color) !important;
+    
 
-.text-gray {
-  color: var(--gray-color) !important;
-}
+
 
 .bg-gray {
   background-color: var(--gray-color) !important;
 }
 
-.bg-second {
-  background-color: var(--second-color) !important;
+.bg-second{
+    background-color: black;
+}
+
+.bg-green{
+    background-color: #b86da5;
 }
 
 .btn-outline-primary {
@@ -79,18 +90,18 @@ body {
   text-decoration: none;
 }
 
-.a:link {
-  color: white;
-  text-decoration: none;
+.a:link{
+    color: #F8E869;
+    text-decoration: none;
 }
 
-.a:visited {
-  color: white;
-  text-decoration: none;
+.a:visited{
+    color: #037586;
+    text-decoration: none;
 }
 
-#sesion:link {
-  color: var(--primary-color);
+#sesion:link{
+    color: var(--second-color);
 }
 #sesion:visited {
   color: var(--primary-color);
@@ -175,10 +186,24 @@ aside{
   background-color: rgb(236, 229, 229);
 }
 
-#table{
-  width: 70%;
-  height: 50vh;
+ #numero{
+     width: 70px;
+ }
+
+.height1{
+    height: 400px;
 }
+
+.producto_principal{
+    width: 200px;
+    height: 200px;
+}
+
+#foot{
+    background-color: #5e0943;
+}
+
+
 
 #producto{
   width: 45%;
