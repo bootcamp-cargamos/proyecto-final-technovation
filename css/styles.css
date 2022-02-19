@@ -1,24 +1,26 @@
 @import url(vars.css);
 
 /* By Dina */
+
 body{
     background-image: url('../img/istockphoto-996416794-170667a.jpg');
+
+
+
+.blur {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.blur{
-    background-color: rgba(0, 0, 0, 0.5);
+.bg-primary {
+  background-color: var(--primary-color);
 }
 
-.bg-primary{
-    background-color: var(--primary-color);
+.bg-dark {
+  background-color: var(--dark-color) !important;
 }
 
-.bg-dark{
-    background-color: var(--dark-color) !important;
-}
-
-.text-primary{
-    color: var(--primary-color)!important; 
+.text-primary {
+  color: var(--primary-color) !important;
 }
 
 .text-second{
@@ -31,11 +33,11 @@ body{
 .text-gray{
     color: var(--gray-color) !important;
     
-}
 
-.bg-gray{
-    
-    background-color: var(--gray-color) !important;
+
+
+.bg-gray {
+  background-color: var(--gray-color) !important;
 }
 
 .bg-second{
@@ -44,50 +46,48 @@ body{
 
 .bg-green{
     background-color: #b86da5;
-
 }
 
-.btn-outline-primary{
-    border-color: var(--primary-color)!important; 
-    color: var(--primary-color)!important; 
+.btn-outline-primary {
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
 }
 
-.btn-outline-primary:hover{
-    background-color: var(--primary-color)!important; 
-    color: white !important;
+.btn-outline-primary:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
 }
 
-.btn-primary{
-    border-color: var(--primary-color)!important;
-    background-color: var(--primary-color)!important; 
-    color: white !important;
+.btn-primary {
+  border-color: var(--primary-color) !important;
+  background-color: var(--primary-color) !important;
+  color: white !important;
 }
 
-.btn-primary:hover{
-    
-    background-color: #4b5f30!important; 
+.btn-primary:hover {
+  background-color: #4b5f30 !important;
 }
 
 /* Productos */
 .team-item img {
-    transition: .5s;
+  transition: 0.5s;
 }
 
 .team-item:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.shadow{
-    box-shadow: 0 0 5px rgba(63, 63, 55, 0.603);
+.shadow {
+  box-shadow: 0 0 5px rgba(63, 63, 55, 0.603);
 }
 
-.productos:link{
-    color: var(--primary-color);
-    text-decoration: none;
+.productos:link {
+  color: var(--primary-color);
+  text-decoration: none;
 }
-.productos:visited{
-    color: var(--primary-color);
-    text-decoration: none;
+.productos:visited {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 .a:link{
@@ -103,20 +103,88 @@ body{
 #sesion:link{
     color: var(--second-color);
 }
-#sesion:visited{
-    color: var(--primary-color);
+#sesion:visited {
+  color: var(--primary-color);
+}
+
+/* ------------------------------------------------------------------ */
+/* By Fer*/
+.primary-color {
+  background: #5d6e43;
+}
+.second-color {
+  background: #dbd5c8;
+}
+.bg-color {
+  background-color: #ede5e1;
+}
+.height6 {
+  height: 50%;
+}
+.height4 {
+  height: 40%;
+}
+.p-t1 {
+  padding-top: 15%;
+}
+
+#contenedor {
+  color: black;
+  width: 30%;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  top: 5%;
+  left: 35%;
+}
+/* ---------------------------------------------------------------- */
+=======
+
+/* By javier */
+/* ========================================== */
+.w-90 {
+  width: 90%;
+}
+.pt-8 {
+  padding-top: 8%;
+}
+.mt-6 {
+  margin-top: 6%;
+}
+.bg-form {
+  /* background-color: var(--primary-color) !important; */
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+.color-form {
+  color: var(--primary-color) !important;
+}
+
+/* By Alicia */
+
+.btnAnterior {
+  border: 1px solid blue;
+  color: blue;
+  height: 40px;
 }
 
 /* ------------------------------------------------------------------ */
 
+/* By rumina */
+/* div{
+  width: 100%;
+  height: 100vh;
+}
+ 
+#options{
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 5px;
+}
 
-/* By Alicia */
-
-  .btnAnterior{
-    border: 1px solid  blue;
-  color: blue;
- height: 40px;
-  }
+aside{
+  background-color: rgb(236, 229, 229);
+}
 
  #numero{
      width: 70px;
@@ -137,4 +205,13 @@ body{
 
 
 
-  /* ------------------------------------------------------------------ */
+#producto{
+  width: 45%;
+}
+
+#main{
+  width: 30%;
+  height: 100vh;
+ 
+}
+ */
