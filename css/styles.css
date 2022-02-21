@@ -3,8 +3,13 @@
 /* By Dina */
 
 body{
+    background-color: var(--bg-color);
+
+}
+
     background-image: url('../img/istockphoto-996416794-170667a.jpg');
   }
+
 
 
 .blur {
@@ -31,7 +36,7 @@ body{
     color: aquamarine;
 }
 .text-gray{
-    color: var(--gray-color) !important;
+
      }
 
 
@@ -182,6 +187,7 @@ aside{
   background-color: rgb(236, 229, 229);
 }
 
+
  #numero{
      width: 70px;
  }
@@ -211,3 +217,4 @@ aside{
  
 }
  
+
