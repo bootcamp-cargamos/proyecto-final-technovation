@@ -1,10 +1,10 @@
 
-import LoginPage from "/js/pages/login_page";
-import RegisterPage from "/js/pages/register_page";
-import ProductsPage from "/js/pages/categories_page";
-import EditProductPage from "/js/pages/edit_product_page";
-import CategoriesPage from "/js/pages/categories_page";
-import Navbar from "/js/components/navbar";
+import LoginPage from "/js/pages/login_page.js";
+import RegisterPage from "/js/pages/register_page.js";
+import ProductsPage from "/js/pages/categories_page.js";
+import EditProductPage from "/js/pages/edit_product_page.js";
+import CategoriesPage from "/js/pages/categories_page.js";
+import Navbar from "/js/components/navbar.js";
 
 var routes = [
     { path: "/", component: LoginPage},
