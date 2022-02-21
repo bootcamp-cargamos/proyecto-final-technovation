@@ -1,153 +1,148 @@
 @import url(vars.css);
 
 /* By Dina */
+
 body{
-<<<<<<< Updated upstream
     background-color: var(--bg-color);
-=======
+
+}
+
     background-image: url('../img/istockphoto-996416794-170667a.jpg');
+  }
 
->>>>>>> Stashed changes
+
+
+.blur {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.blur{
-    background-color: rgba(0, 0, 0, 0.5);
+.bg-primary {
+  background-color: var(--primary-color);
 }
 
-.bg-primary{
-    background-color: var(--primary-color);
+.bg-dark {
+  background-color: var(--dark-color) !important;
 }
 
-.bg-dark{
-    background-color: var(--dark-color) !important;
-}
-
-.text-primary{
-    color: var(--primary-color)!important; 
+.text-primary {
+  color: var(--primary-color) !important;
 }
 
 .text-second{
-    color: var(--second-color) !important;
+    color: var(--primary-color) !important;
+    font-size: 20px;
 }
-
+.text-third{
+    color: aquamarine;
+}
 .text-gray{
-    color: var(--gray-color) !important;
-<<<<<<< Updated upstream
-=======
-}
+
+     }
+
+
 .bg-gray {
   background-color: var(--gray-color) !important;
->>>>>>> Stashed changes
-}
-
-.bg-gray{
-    
-    background-color: var(--gray-color) !important;
 }
 
 .bg-second{
-    
-    background-color: var(--second-color) !important;
+    background-color: black;
 }
 
-.btn-outline-primary{
-    border-color: var(--primary-color)!important; 
-    color: var(--primary-color)!important; 
+.bg-green{
+    background-color: #b86da5;
 }
 
-.btn-outline-primary:hover{
-    background-color: var(--primary-color)!important; 
-    color: white !important;
+.btn-outline-primary {
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
 }
 
-.btn-primary{
-    border-color: var(--primary-color)!important;
-    background-color: var(--primary-color)!important; 
-    color: white !important;
+.btn-outline-primary:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
 }
 
-.btn-primary:hover{
-    
-    background-color: #4b5f30!important; 
+.btn-primary {
+  border-color: var(--primary-color) !important;
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: #4b5f30 !important;
 }
 
 /* Productos */
 .team-item img {
-    transition: .5s;
+  transition: 0.5s;
 }
 
 .team-item:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.shadow{
-    box-shadow: 0 0 5px rgba(63, 63, 55, 0.603);
+.shadow {
+  box-shadow: 0 0 5px rgba(63, 63, 55, 0.603);
 }
 
-.productos:link{
-    color: var(--primary-color);
-    text-decoration: none;
+.productos:link {
+  color: var(--primary-color);
+  text-decoration: none;
 }
-.productos:visited{
-    color: var(--primary-color);
-    text-decoration: none;
+.productos:visited {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 .a:link{
-    color: white;
+    color: #F8E869;
     text-decoration: none;
 }
 
 .a:visited{
-    color: white;
+    color: #037586;
     text-decoration: none;
 }
 
 #sesion:link{
-    color: var(--primary-color);
+    color: var(--second-color);
 }
-#sesion:visited{
-    color: var(--primary-color);
+#sesion:visited {
+  color: var(--primary-color);
 }
 
-<<<<<<< Updated upstream
-/* ------------------------------------------------------------------ */
-=======
 /* ------------------------------------------------------------------ */
 /* By Fer*/
 .primary-color {
   background: #5d6e43;
 }
 .second-color {
-  background: #e6e4e1;
+  background: #dbd5c8;
 }
 .bg-color {
-  background-color: #c2e9d9;
+  background-color: #ede5e1;
 }
 .height6 {
-  height: 60%;
+  height: 50%;
 }
 .height4 {
   height: 40%;
 }
 .p-t1 {
-  margin-top: 15%;
+  padding-top: 15%;
 }
 
 #contenedor {
   color: black;
-  width: 40%;
+  width: 30%;
   text-align: center;
   border-radius: 10px 10px 10px 10px;
   position: relative;
-  top: 10%;
-  left: 30%;
-  padding: 5%;
-}
-.footer{
-  background-color: #5e0943; 
+  top: 5%;
+  left: 35%;
 }
 /* ---------------------------------------------------------------- */
+
 
 /* By javier */
 /* ========================================== */
@@ -192,6 +187,7 @@ aside{
   background-color: rgb(236, 229, 229);
 }
 
+
  #numero{
      width: 70px;
  }
@@ -221,4 +217,4 @@ aside{
  
 }
  
->>>>>>> Stashed changes
+
