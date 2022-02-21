@@ -2,7 +2,12 @@
 
 /* By Dina */
 body{
+<<<<<<< Updated upstream
     background-color: var(--bg-color);
+=======
+    background-image: url('../img/istockphoto-996416794-170667a.jpg');
+
+>>>>>>> Stashed changes
 }
 
 .blur{
@@ -27,6 +32,12 @@ body{
 
 .text-gray{
     color: var(--gray-color) !important;
+<<<<<<< Updated upstream
+=======
+}
+.bg-gray {
+  background-color: var(--gray-color) !important;
+>>>>>>> Stashed changes
 }
 
 .bg-gray{
@@ -99,4 +110,115 @@ body{
     color: var(--primary-color);
 }
 
+<<<<<<< Updated upstream
 /* ------------------------------------------------------------------ */
+=======
+/* ------------------------------------------------------------------ */
+/* By Fer*/
+.primary-color {
+  background: #5d6e43;
+}
+.second-color {
+  background: #e6e4e1;
+}
+.bg-color {
+  background-color: #c2e9d9;
+}
+.height6 {
+  height: 60%;
+}
+.height4 {
+  height: 40%;
+}
+.p-t1 {
+  margin-top: 15%;
+}
+
+#contenedor {
+  color: black;
+  width: 40%;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  top: 10%;
+  left: 30%;
+  padding: 5%;
+}
+.footer{
+  background-color: #5e0943; 
+}
+/* ---------------------------------------------------------------- */
+
+/* By javier */
+/* ========================================== */
+.w-90 {
+  width: 90%;
+}
+.pt-8 {
+  padding-top: 8%;
+}
+.mt-6 {
+  margin-top: 6%;
+}
+.bg-form {
+  /* background-color: var(--primary-color) !important; */
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+.color-form {
+  color: var(--primary-color) !important;
+}
+
+/* By Alicia */
+
+.btnAnterior {
+  border: 1px solid blue;
+  color: blue;
+  height: 40px;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* By rumina */
+
+ 
+#options{
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+aside{
+  background-color: rgb(236, 229, 229);
+}
+
+ #numero{
+     width: 70px;
+ }
+
+.height1{
+    height: 400px;
+}
+
+.producto_principal{
+    width: 200px;
+    height: 200px;
+}
+
+#foot{
+    background-color: #5e0943;
+}
+
+
+
+#producto{
+  width: 45%;
+}
+
+#main{
+  width: 30%;
+  height: 100vh;
+ 
+}
+ 
+>>>>>>> Stashed changes
