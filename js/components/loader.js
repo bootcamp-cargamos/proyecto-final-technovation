@@ -1,16 +1,14 @@
-
 export default Vue.component ("navbar", {
     props: [],
     data: function () {
         return {};
     },
     methods: {},
-    template:  `
+    template:`
     <div class="d-flex flex-column justify-content-center align-items-center"
          style="min-height: 90vh">
-        <img src="/img/g0R5.gif" loop="infinite" width="100" alt="" />
-        <img src="assets/loading.gif" loop="infinite" width="100" alt="" />
+        <img src="/assets/g0R5.gif" loop="infinite" width="100" alt="" />
         <small>Cargando...</small>
     </div>
     `,
-})
+});
