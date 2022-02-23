@@ -1,10 +1,9 @@
 
 import ProductsPage from "./pages/products_page.js"
-import DetailsPage from ""
+import DetailsPage from "./pages/details_product.js"
 import LoginPage from "./pages/login_page.js"
 import RegisterPage from "./pages/register_page.js"
-import CardPage from ""
-import Checklist from ""
+import CardPage from "./pages/card_page.js"
 import EditProductPage from ""
 import CategoriesPage from ""
 import Navbar from "./components/navbar.js"
