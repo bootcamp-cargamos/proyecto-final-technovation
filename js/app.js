@@ -1,27 +1,32 @@
 
-import LoginPage from "/js/pages/login_page";
-import RegisterPage from "/js/pages/register_page";
-import ProductsPage from "/js/pages/categories_page";
-import EditProductPage from "/js/pages/edit_product_page";
-import CategoriesPage from "/js/pages/categories_page";
-import Navbar from "/js/components/navbar";
+import ProductsPage from "./pages/products_page.js"
+import ProductList from "./components/product_list.js"
+import LoginPage from "./pages/login_page.js"
+import RegisterPage from "./pages/register_page.js"
+import ProductDetails from "./pages/product_details.js"
+import CardPage from "./pages/card_page.js"
+import EditProductPage from "./pages/edit_product_page.js"
+import CategoriesPage from "./pages/categories_page.js"
+import Navbar from "./components/navbar.js"
 
 var routes = [
-    { path: "/", component: LoginPage},
-    { path: "/register", component: RegisterPage},
-    { path: "/products", component: ProductsPage},
-    { path: "products/edit", component: EditProductPage},
-    { path: "categories", component: CategoriesPage},
+    { path: "/", component: ProductsPage},
+    { path: "/ProductList", component: ProductList},
+    { path: "/login", component: LoginPage},
+    { path: "/register",component: RegisterPage},
+    { path: "/ProductDetails", component: ProductDetails},
+    { path: "/card", component: CardPage},
+    { path: "/product/edit", component: EditProductPage},
+    { path: "/categories", component:CategoriesPage},
 ];
-
-var router = new VueRouter ({
+var router = new VueRouter({
     routes: routes,
     mode: "hash",
-    base: "/"
-})
+    base: "/",
+});
 
-var app = new Vue ({
+var app = new Vue({
     el: "#app",
-    components: {Navbar},
-    router:router
+    components: { Navbar },
+    router: router,
 });
