@@ -8,6 +8,7 @@ import EditProductPage from "./pages/edit_product_page.js"
 import CategoriesPage from "./pages/categories_page.js"
 import Navbar from "./components/navbar.js"
 import ProductList from "./pages/products_page.js"
+import Carrousel from "./components/carrousel.js"
 
 
 var routes = [
