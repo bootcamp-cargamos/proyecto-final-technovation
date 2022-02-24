@@ -3,8 +3,13 @@
 /* By Dina */
 
 body{
+    background-color: var(--bg-color);
+
+
+
     background-image: url('../img/istockphoto-996416794-170667a.jpg');
-  }
+}
+
 
 
 .blur {
@@ -32,7 +37,7 @@ body{
 }
 .text-gray{
     color: var(--gray-color) !important;
-     }
+}
 
 
 .bg-gray {
@@ -112,29 +117,33 @@ body{
   background: #5d6e43;
 }
 .second-color {
-  background: #dbd5c8;
+  background: #e6e4e1;
 }
 .bg-color {
-  background-color: #ede5e1;
+  background-color: #c2e9d9;
 }
 .height6 {
-  height: 50%;
+  height: 60%;
 }
 .height4 {
   height: 40%;
 }
 .p-t1 {
-  padding-top: 15%;
+  margin-top: 15%;
 }
 
 #contenedor {
   color: black;
-  width: 30%;
+  width: 40%;
   text-align: center;
   border-radius: 10px 10px 10px 10px;
   position: relative;
-  top: 5%;
-  left: 35%;
+  top: 10%;
+  left: 30%;
+  padding: 5%;
+}
+.footer{
+  background-color: #5e0943; 
 }
 /* ---------------------------------------------------------------- */
 
@@ -182,6 +191,7 @@ aside{
   background-color: rgb(236, 229, 229);
 }
 
+
  #numero{
      width: 70px;
  }
@@ -211,3 +221,4 @@ aside{
  
 }
  
+
