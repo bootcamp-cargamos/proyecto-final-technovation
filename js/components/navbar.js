@@ -5,16 +5,16 @@ export default Vue.component ("navbar", {
     props: [],
     data: function () {
         return {
-            
+
         };
     },
     computed: {
         isRoot() {
-            
+
         },
     },
     methods: {
-        
+
     },
     template: `
     <nav class="navbar navbar-expand-lg navbar-light bg-second fixed-top shadow">
@@ -38,7 +38,7 @@ export default Vue.component ("navbar", {
               Productos
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">zapatos</a></li>
+              <li><a class="dropdown-item" href="/categories">zapatos</a></li>
               <li><a class="dropdown-item" href="#">Caminos de mesa</a></li>
               <li><a class="dropdown-item" href="#">Servilletas y manteles</a></li>
               <li>

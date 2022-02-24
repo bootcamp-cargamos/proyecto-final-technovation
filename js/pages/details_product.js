@@ -1,5 +1,5 @@
 export default Vue.component(
-    "login-page", {
+    "details-product", {
         data: function () {
             return {
             }
