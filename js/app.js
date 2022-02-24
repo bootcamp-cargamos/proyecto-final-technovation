@@ -9,6 +9,7 @@ import CategoriesPage from "./pages/categories_page.js"
 import Navbar from "./components/navbar.js"
 import ProductList from "./pages/products_page.js"
 import Carrousel from "./components/carrousel.js"
+import Add_info from "./components/Add_info.js"
 
 
 var routes = [

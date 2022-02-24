@@ -1,4 +1,4 @@
-export default Vue.component ("navbar", {
+export default Vue.component ("loader", {
     props: [],
     data: function () {
         return {};
