@@ -9,6 +9,7 @@ import CategoriesPage from "./pages/categories_page.js"
 import Navbar from "./components/navbar.js"
 import ProductList from "./pages/products_page.js"
 
+
 var routes = [
     { path: "/", component: ProductsPage},
     { path: "/detailsproduct", component: DetailsPage},
