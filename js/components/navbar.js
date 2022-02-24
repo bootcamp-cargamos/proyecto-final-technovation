@@ -1,5 +1,5 @@
 
-// import STORAGE from "../utils/storage.js";
+ import STORAGE from "../utils/storage.js";
 
 export default Vue.component ("navbar", {
     props: [],
