@@ -1,5 +1,5 @@
 import STORAGE from "/js/utils/storage";
-const URL = ""
+const URL = "https://api-technovation.herokuapp.com"
 const generateHeaders = () =>{
     return {
         "Content-Type": "application/json",
