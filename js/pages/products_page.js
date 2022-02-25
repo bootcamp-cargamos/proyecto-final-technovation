@@ -53,12 +53,17 @@ export default Vue.component(
         vm.current_category = vm.categories[0];
 
         },
+        newProduct (){
+            STORAGE.remove("product");
+            this.$router.push("products/edit")
+        },
+
         created() {
             console.log("product page list");
             const nombre= this.$route.params.id
         },
         template: `
-        <div></div>
+        <loader v-if="loading"></loader>
         `
 },
 )
