@@ -1,7 +1,8 @@
 export default Vue.component ("carrousel", {
     props: [],
     data: function () {
-        return {
+      return {
+          
 
         };
     },
@@ -11,7 +12,7 @@ export default Vue.component ("carrousel", {
         },
     },
     methods: {
-
+     
     },
     template: `
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">

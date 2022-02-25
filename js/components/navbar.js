@@ -14,7 +14,29 @@ export default Vue.component ("navbar", {
         },
     },
     methods: {
-
+      goLogin() {
+        this.$router.push("/");
+      },
+      goBack() {
+        this.$router.push("/");
+      },
+      goRegister() {
+        // Redirige al usuario al listado de productos
+        this.$router.push("register");
+      },
+      logout() {
+        // Eliminamos el token de sesión
+        STORAGE.remove("token");
+        this.$router.push("/");
+      },
+    },
+    mounted() {},
+    created: function () {
+      // Validamos el cambio en el Local Storage
+      setInterval(() => {
+        this.isLogged = !(STORAGE.get("token") == null);
+        this.current_path = this.$router.history.current.path
+      }, 1000);
     },
     template: `
     <nav class="navbar navbar-expand-lg navbar-light bg-second fixed-top shadow">
@@ -29,18 +51,20 @@ export default Vue.component ("navbar", {
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
           <li class="nav-item">
-            <a class="nav-link active text-second" aria-current="page" href="#">Página de inicio</a>
+          <router-link to="/" class="nav-link active inicio" aria-current="page">Inicio</router-link>
           </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-second" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Productos
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/categories">zapatos</a></li>
-              <li><a class="dropdown-item" href="#">Caminos de mesa</a></li>
-              <li><a class="dropdown-item" href="#">Servilletas y manteles</a></li>
+            <ul class="dropdown-menu b-nav" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/categories.zapatos">zapatos</a></li>
+              <li><a class="dropdown-item" href="/categories.camino_mesa">Caminos de mesa</a></li>
+              <li><a class="dropdown-item" href="/categories.servilletas_manteles">Servilletas y manteles</a></li>
               <li>
                 <a class="dropdown-item" href="#">Telas tipicas</a>
               </li>
@@ -51,9 +75,9 @@ export default Vue.component ("navbar", {
             <a href="#" class="nav-item nav-link "><i class="bi bi-cart-fill color_card"></i></a>
           </li>
         </ul>
-        <button class="btn btn-outline-primary m-1"><a href="#" class="a" id="sesion">Iniciar
+        <button class="btn btn-outline-primary m-1"><a href="/pages/sesion.html" class="a" id="sesion">Iniciar
             Sesión</a></button>
-        <button class="btn btn-primary"><a href="#" class="a">Registrarse</a></button>
+        <button class="btn btn-primary"><a href="/pages/registrarse.html" class="a">Registrarse</a></button>
       </div>
     </div>
   </nav>
