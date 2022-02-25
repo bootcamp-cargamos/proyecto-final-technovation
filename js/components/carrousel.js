@@ -15,7 +15,7 @@ export default Vue.component ("carrousel", {
      
     },
     template: `
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="/img/OG-110+Patzun.jpg" class="d-block w-100 height1" alt="...">

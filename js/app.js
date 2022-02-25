@@ -21,7 +21,9 @@ var routes = [
     // { path: "/checklist", component: Checklist},
     { path: "/product/edit", component: EditProductPage},
     { path: "/categories", component: CategoriesPage },
-    { path: "/categories/:name:", component: ProductList },
+    { path: "/categories/zapatos", component: ProductList },
+    { path: "/categories/telas_tipicas", component: ProductList },
+    { path: "/categories/camino_mesa", component: ProductList },
 ];
 var router = new VueRouter({
     routes: routes,
