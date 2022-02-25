@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 import CLIENT from "/js/api/client.js";
 
 export default Vue.component("register-page", {
@@ -110,4 +108,5 @@ export default Vue.component("register-page", {
      
       `,
 });
->>>>>>> Stashed changes
+
+

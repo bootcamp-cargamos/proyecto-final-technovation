@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 import CLIENT from "/js/api/client.js";
 import STORAGE from "/js/utils/storage.js";
 
@@ -86,4 +84,5 @@ export default Vue.component("login-page", {
   </form> 
   `,
 });
->>>>>>> Stashed changes
+
+
