@@ -14,7 +14,29 @@ export default Vue.component ("navbar", {
         },
     },
     methods: {
-
+      goLogin() {
+        this.$router.push("/");
+      },
+      goBack() {
+        this.$router.push("/");
+      },
+      goRegister() {
+        // Redirige al usuario al listado de productos
+        this.$router.push("register");
+      },
+      logout() {
+        // Eliminamos el token de sesión
+        STORAGE.remove("token");
+        this.$router.push("/");
+      },
+    },
+    mounted() {},
+    created: function () {
+      // Validamos el cambio en el Local Storage
+      setInterval(() => {
+        this.isLogged = !(STORAGE.get("token") == null);
+        this.current_path = this.$router.history.current.path
+      }, 1000);
     },
     template: `
     <nav class="navbar navbar-expand-lg navbar-light bg-second fixed-top shadow">
@@ -37,10 +59,10 @@ export default Vue.component ("navbar", {
               aria-expanded="false">
               Productos
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/categories">zapatos</a></li>
-              <li><a class="dropdown-item" href="#">Caminos de mesa</a></li>
-              <li><a class="dropdown-item" href="#">Servilletas y manteles</a></li>
+            <ul class="dropdown-menu b-nav" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/categories.zapatos">zapatos</a></li>
+              <li><a class="dropdown-item" href="/categories.camino_mesa">Caminos de mesa</a></li>
+              <li><a class="dropdown-item" href="/categories.servilletas_manteles">Servilletas y manteles</a></li>
               <li>
                 <a class="dropdown-item" href="#">Telas tipicas</a>
               </li>

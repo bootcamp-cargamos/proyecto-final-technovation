@@ -8,7 +8,7 @@ import EditProductPage from "./pages/edit_product_page.js"
 import CategoriesPage from "./pages/categories_page.js"
 import Navbar from "./components/navbar.js"
 import ProductList from "./pages/products_page.js"
-import Carrousel from "./components/carrousel.js"
+import carrousel from "./components/carrousel.js"
 import Add_info from "./components/Add_info.js"
 
 
@@ -21,7 +21,7 @@ var routes = [
     // { path: "/checklist", component: Checklist},
     { path: "/product/edit", component: EditProductPage},
     { path: "/categories", component: CategoriesPage },
-    { path: "/categories/:name", component:ProductList},
+    { path: "/categories/:name:", component: ProductList },
 ];
 var router = new VueRouter({
     routes: routes,
