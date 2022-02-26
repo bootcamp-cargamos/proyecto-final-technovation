@@ -18,7 +18,7 @@ export default Vue.component(
         </div>
         <div class="row g-4 d-flex justify-content-center">
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <a href="pages/productos/zapatos.html" class="productos">
+            <a href="/#/categories/zapatos"" class="productos">
               <div class="shadow team-item">
                 <div class="overflow-hidden position-relative">
                   <img class="img-fluid producto_principal" src="img/44992007_288940898387172_2825189849055625216_n.jpg" alt="" />
@@ -31,7 +31,7 @@ export default Vue.component(
           </div>
 
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <a href="pages/productos/camino_mesa.html" class="productos">
+            <a href="/#/categories/camino" class="productos">
               <div class="shadow team-item">
                 <div class="overflow-hidden position-relative">
                   <img class="img-fluid  producto_principal" src="img/il_570xN.1650484727_4bkd.jpg" alt="" />
@@ -44,7 +44,7 @@ export default Vue.component(
           </div>
 
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <a href="pages/productos/servilletas_manteles.html" class="productos">
+            <a href="/#/categories/servilletas" class="productos">
               <div class="shadow team-item">
                 <div class="overflow-hidden position-relative">
                   <img class="img-fluid  producto_principal" src="img/servilleta.jpg" alt="" />
@@ -63,7 +63,7 @@ export default Vue.component(
       <div class="container ">
         <div class="row g-4 d-flex justify-content-center">
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <a href="pages/productos/telas_tipicas.html" class="productos">
+            <a href="#/categories/telas" class="productos">
               <div class="shadow team-item">
                 <div class="overflow-hidden position-relative">
                   <img class="img-fluid  producto_principal" src="img/telas.jpg" alt="" />
@@ -75,7 +75,7 @@ export default Vue.component(
             </a>
           </div>
           <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <a href="pages/productos/blusas_faldas.html" class="productos">
+            <a href="/#/categories/blusas" class="productos">
               <div class="shadow team-item">
                 <div class="overflow-hidden position-relative">
                   <img class="img-fluid  producto_principal" src="img/blusa-falda.jpg" alt="" />
