@@ -9,10 +9,14 @@ export default Vue.component(
         created() {
             console.log("product page list");
             const nombre= this.$route.params.id
+
             
         },
         template: `
-        <div></div>
+        <div>
+
+        </div>
         `
 },
 )
+

@@ -13,8 +13,6 @@ export default Vue.component("categories-page", {
   template: `
         <div class="container pt-4">
             <h1>Categoría : {{ $route.params.category }}</h1>
-
-
-        </div>
+            
         `,
 });
