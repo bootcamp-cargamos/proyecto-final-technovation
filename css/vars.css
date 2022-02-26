@@ -1,7 +1,7 @@
-:root{
-    --primary-color: white;
-    --second-color: #037586;
-    --bg-color: #8a6e13;
-    --dark-color: #1f1b15;
-    --gray-color: #646609;
+:root {
+  --primary-color: white;
+  --second-color: #037586;
+  --bg-color: #8a6e13;
+  --dark-color: #000;
+  --gray-color: #646609;
 }
