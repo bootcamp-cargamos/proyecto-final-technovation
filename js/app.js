@@ -9,6 +9,7 @@ import CategoriesPage from "./pages/categories_page.js";
 import Navbar from "./components/navbar.js";
 import VFooter from "./components/v_footer.js";
 import login_form from "./components/login_form.js";
+import ProductCategories from "./components/product_categories.js"
 
 var routes = [
   { path: "/", component: HomePage },
