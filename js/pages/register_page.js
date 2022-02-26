@@ -44,13 +44,13 @@ export default Vue.component("register-page", {
         <div>
 
             <register-form
-                :set_username="setUsername" 
+                :set_username="setUsername"
                 :set_mail="setMail"
                 :set_password="setPassword"
                 :set_firstname="setFirstname"
-                :set_lastname="setLastname" 
+                :set_lastname="setLastname"
                 :onClick="onClick"/>
-            
+
         </div>
         `,
 });
