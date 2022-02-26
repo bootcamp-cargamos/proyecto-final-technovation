@@ -9,9 +9,9 @@ export default Vue.component("navbar", {
     };
   },
   computed: {
-    // isRoot() {
-    //   return this.current_path == "/products" || this.current_path == "/";
-    // },
+     isRoot() {
+       return this.current_path == "/products" || this.current_path == "/";
+     },
   },
   methods: {
     goLogin() {
@@ -26,17 +26,17 @@ export default Vue.component("navbar", {
     },
     logout() {
       // Eliminamos el token de sesión
-      //   STORAGE.remove("token");
-      //   this.$router.push("/");
+         STORAGE.remove("token");
+        this.$router.push("/");
     },
   },
   mounted() {},
   created: function () {
     // Validamos el cambio en el Local Storage
-    // setInterval(() => {
-    //   this.isLogged = !(STORAGE.get("token") == null);
-    //   this.current_path = this.$router.history.current.path;
-    // }, 1000);
+      setInterval(() => {
+      this.isLogged = !(STORAGE.get("token") == null);
+       this.current_path = this.$router.history.current.path;
+      }, 1000);
   },
   template: `
 
