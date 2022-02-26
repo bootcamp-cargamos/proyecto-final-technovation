@@ -9,8 +9,13 @@ export default Vue.component(
         created() {
             console.log("product page list");
             const nombre= this.$route.params.id
+
+            
         },
         template: `
+        <div>
+
+        </div>
         <a class="nav-link dropdown-toggle text-second" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
         aria-expanded="false">
         Productos
@@ -23,6 +28,8 @@ export default Vue.component(
         <li><a class="dropdown-item" href="/#/categories/blusas">Blusas y faldas</a></li>
       </ul>
     </li>
+
         `
 },
 )
+
